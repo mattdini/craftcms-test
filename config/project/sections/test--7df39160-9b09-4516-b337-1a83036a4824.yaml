@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 6f47078b-e048-4afe-a741-618451fa643a # Page
+handle: test
+maxAuthors: 1
+name: Test
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  cede2bfb-5113-4333-b17d-135d483c2762: # localtest
+    enabledByDefault: true
+    hasUrls: true
+    template: test/_entry
+    uriFormat: test
+type: single
